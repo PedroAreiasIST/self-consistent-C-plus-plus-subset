@@ -1,4 +1,4 @@
-# self-consistent-C-subset
+# self-consistent-C++-subset
 
 ---------------------------------------------------------
 A self-consistent C++ subset for programming productivity
