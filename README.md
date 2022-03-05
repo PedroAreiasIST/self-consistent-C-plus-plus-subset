@@ -41,5 +41,5 @@ Decisions:
 6) Use of RAII for managing structs.
 7) Extensive use of the rule of Zero.
 8) Use of nested namespaces for identifying functions in a tree-like form.
-9) Extenive use of template functions and structs.
+9) Extensive use of template functions and structs.
 10) Use of linear containers. No STL.
