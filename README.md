@@ -43,3 +43,4 @@ Decisions:
 8) Use of nested namespaces for identifying functions in a tree-like form.
 9) Extensive use of template functions and structs.
 10) Use of linear containers. No STL.
+11) Only allowable return values are of intrinsic types.
