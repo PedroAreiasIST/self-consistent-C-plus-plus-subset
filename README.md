@@ -26,7 +26,7 @@ We have opinions:
 2) Encapsulation is an hoax.
 3) STL is an example of pseudo-science.
 4) Polymorphism based on virtual functions is childish.
-5) OO is also an hoax.
+5) Most member functions should be replaced by free-standing ones.
 6) Tricks and smart solutions are usually not intelligent.
 7) Coding ego is not your amigo.
 
@@ -36,7 +36,7 @@ Decisions:
 
 1) A base-library with essentials is being constructed.
 2) We only use trivial and partially standard layout structs.
-3) Protected and private member variables are out-of-the-question.
+3) Protected and private members are out-of-the-question.
 4) A very limited use of member functions is allowed.
 5) A very limited use of operator overloading is allowed.
 6) C is still good. We favor use of useful C-style features and mechanisms.
