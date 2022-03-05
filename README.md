@@ -40,9 +40,10 @@ Decisions:
 4) A very limited use of member functions is allowed.
 5) A very limited use of operator overloading is allowed.
 6) C is still good. We favor use of useful C-style features and mechanisms.
-7) We favor use of RAII for managing structs.
-8) We favor an extensive use of the rule of Zero.
-9) Namespaces are favored for identifying functions in a tree-like form.
-10) We favor an extensive use of template functions and structs.
-11) We adopt linear containers. 
-12) The only allowable function return values are of intrinsic types.
+7) Structs follow aggregate initialization. 
+8) We favor use of RAII for managing structs.
+9) We favor an extensive use of the rule of Zero.
+10) Namespaces are favored for identifying functions in a tree-like form.
+11) We favor an extensive use of template functions and structs.
+12) We adopt linear containers. 
+13) The only allowable function return values are of intrinsic types.
