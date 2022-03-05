@@ -33,7 +33,7 @@ We have no respect  for:
 Decisions:
 ---------
 
-1) Only structs, no classes.
+1) Only trivial and partially standard layout structs.
 2) No protected/private member variables.
 3) Very limited use of member functions.
 4) Very limited use of operator overloading.
