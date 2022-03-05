@@ -44,5 +44,5 @@ Decisions:
 8) We favor an extensive use of the rule of Zero.
 9) Namespaces are favored for identifying functions in a tree-like form.
 10) We favor an extensive use of template functions and structs.
-11) We adopt linear containers. STL.
+11) We adopt linear containers. 
 12) The only allowable function return values are of intrinsic types.
