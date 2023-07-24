@@ -1,9 +1,9 @@
 # self-consistent-C++-subset
+# a motorcycle rider approach
 
 ---------------------------------------------------------
 A self-consistent C++ subset for programming productivity
 ---------------------------------------------------------
-
 -------------------
 Big-picture choices:
 -------------------
@@ -22,9 +22,9 @@ Big-picture choices:
 We have opinions:
 ----------------
 
-1) Safety slows everyone down.
-2) Encapsulation is an hoax.
-3) STL is an example of pseudo-science.
+1) Safety slows everything.
+2) Encapsulation is a hoax.
+3) std algorithm and std execution are helpful.
 4) Polymorphism based on virtual functions is childish.
 5) Most member functions should be replaced by free-standing ones.
 6) Tricks and smart solutions are usually not intelligent.
@@ -41,9 +41,10 @@ Decisions:
 5) A very limited use of operator overloading is allowed.
 6) C is still good. We favor use of useful C-style features and mechanisms.
 7) Structs follow aggregate initialization. 
-8) We favor use of RAII for managing structs.
-9) We favor an extensive use of the rule of Zero.
+8) We favor RAII for managing structs.
+9) We favor the use of the rule of Zero.
 10) Namespaces are favored for identifying functions in a tree-like form.
 11) We favor an extensive use of template functions and structs.
 12) We adopt linear containers. 
 13) The only allowable function return values are of intrinsic types.
+14) The use of MACROS is encouraged, if locally defined.
